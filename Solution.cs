@@ -18,10 +18,10 @@ public class Solution
             current = current.next;
         }
 
-        return createLinkedListForFrequencyOfValues(valueToFrequency);
+        return CreateLinkedListForFrequencyOfValues(valueToFrequency);
     }
 
-    private ListNode createLinkedListForFrequencyOfValues(Dictionary<int, int> valueToFrequency)
+    private ListNode CreateLinkedListForFrequencyOfValues(Dictionary<int, int> valueToFrequency)
     {
         ListNode dummyNodePreceedingHead = new ListNode();
         ListNode current = dummyNodePreceedingHead;
